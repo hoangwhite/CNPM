@@ -1,0 +1,22 @@
+
+/*Đổi màu table*/
+table
+{
+	border:1px solid #333;
+	border-collapse:collapse;
+}
+
+table th, table td
+{
+	border:1px solid #333;
+}
+table .odd
+{
+	background:#69C;
+}
+table .hover td{
+	background:#069;
+	color:white;
+}
+tr:nth-child(odd) {background: #EEEEF0}
+

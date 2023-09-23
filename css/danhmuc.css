@@ -1,0 +1,27 @@
+/* CSS Document */
+#danhmuc1 ul {
+  background-image:url(css/img/menu_danhmuc.png);
+  width: 200px;
+  padding: 0;
+  list-style-type: none;
+  text-align: left;
+  
+}
+#danhmuc1 li {
+  width: auto;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 1em;
+}
+#danhmuc1 li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: block;
+}
+#danhmuc1 li:hover {
+  background-image:url(css/img/menu_danhmuc_hover.png);
+}
+#danhmuc1 li a:hover {
+  background-image:url(css/img/menu_danhmuc_hover.png);
+}
